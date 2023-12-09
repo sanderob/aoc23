@@ -22,7 +22,7 @@ def get_number(s):
 			return ''
 
 
-with open("./01.txt", 'r') as f:
+with open("../resources/01.txt", 'r') as f:
 	sum = 0
 	for line in f.readlines():
 		first = ""

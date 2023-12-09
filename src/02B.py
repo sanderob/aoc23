@@ -32,7 +32,7 @@ def find_min_cubes(game_input):
 
 
 if __name__ == '__main__':
-    with open("./02.txt", "r") as f:
+    with open("../resources/02.txt", "r") as f:
         lines = f.readlines()
         sum = 0
         for line in [line.strip() for line in lines]:
